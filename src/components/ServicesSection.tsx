@@ -43,7 +43,7 @@ const ServicesSection = () => {
             Our Solutions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Empowering engineering organizations with cutting-edge AI technologies 
+            Empowering engineering organizations with cutting-edge AI technologies and spacecraft telemetry processing expertise
             designed specifically for the space, electrical, optical, and infrared sectors.
           </p>
         </div>

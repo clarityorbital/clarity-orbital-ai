@@ -7,21 +7,21 @@ const missions = [
     icon: Satellite,
     title: "NASA PACE Mission",
     description: "Plankton, Aerosol, Cloud, ocean Ecosystem mission providing critical Earth observation data.",
-    technologies: ["Data Processing"],
+    technologies: ["Data Processing", "Spacecraft Telemetry Analytics"],
     status: "Active",
   },
   {
     icon: Shield,
-    title: "OPIR II Space Force",
+    title: "Space Force OPIR II",
     description: "Overhead Persistent Infrared satellite constellation for missile warning and defense.",
-    technologies: ["Infrared Processing"],
+    technologies: ["Infrared Processing", "Spacecraft Telemetry Analytics"],
     status: "In Development",
   },
   {
     icon: Telescope,
-    title: "Nancy Grace Roman Space Telescope",
+    title: "NASA Nancy Grace Roman Space Telescope",
     description: "Next-generation space telescope for dark energy and exoplanet research.",
-    technologies: ["Image Processing", "Astronomical Data"],
+    technologies: ["Image Processing", "Spacecraft Telemetry Analytics", "Astronomical Data"],
     status: "In Development",
   },
 ];
@@ -36,7 +36,7 @@ const ExperienceSection = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Our team brings deep expertise from major NASA flagship missions and Space Force programs, 
-            delivering mission-critical software and AI solutions for the most demanding space applications.
+            specializing in spacecraft telemetry processing and delivering mission-critical AI solutions for the most demanding space applications.
           </p>
         </div>
         
@@ -73,7 +73,7 @@ const ExperienceSection = () => {
         <div className="text-center mt-16">
           <p className="text-lg text-muted-foreground">
             <span className="text-primary font-semibold">20+ years</span> of combined experience in space missions • 
-            <span className="text-primary font-semibold"> Mission-critical</span> software development • 
+            <span className="text-primary font-semibold"> Spacecraft telemetry</span> processing for insights • 
             <span className="text-primary font-semibold"> Advanced AI</span> and machine learning expertise
           </p>
         </div>
