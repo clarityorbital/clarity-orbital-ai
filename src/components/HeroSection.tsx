@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Rocket, Satellite } from "lucide-react";
-import clarityLogo from "@/assets/clarity-orbital-logo.png";
 
 const HeroSection = () => {
   return (
@@ -17,7 +16,13 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
           <div className="mb-8 flex justify-center items-center">
-            <img src={clarityLogo} alt="Clarity Orbital Inc. Logo" className="h-24 w-auto mb-4" />
+            <div className="relative">
+              <Satellite className="h-20 w-20 text-primary mb-4 mx-auto" />
+              <div className="text-center">
+                <h2 className="text-2xl font-bold text-foreground tracking-wider">CLARITY</h2>
+                <h3 className="text-lg font-semibold text-primary tracking-widest">ORBITAL</h3>
+              </div>
+            </div>
           </div>
           
           {/* Main headline */}
